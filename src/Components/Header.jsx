@@ -4,7 +4,7 @@ function Header() {
   return(
     <header className="header">
       <div className="container header-inner">
-        <a href="#!" className="logo">LoGo</a>
+        <Link to="/" className="logo">Meals</Link>
         <nav className="nav">
           <ul className="nav__list">
             <li>
